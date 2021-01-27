@@ -1,5 +1,5 @@
 {
-  "bg": "https://xceed.me/blog/wp-content/uploads/2017/12/rave.png",
+  "bg": "https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/Rodhad%20at%20Time%20Warp%202018.png?itok=Si-ofL9v",
   "title": "Quiz CSS da Alura",
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
@@ -24,9 +24,9 @@
   "external": [""],
   "theme": {
     "colors": {
-      "primary": "#4843D9",
-      "secondary": "#353A8C",
-      "mainBg": "#0D0D0D",
+      "primary": "#353A8C",
+      "secondary": "#4843D9",
+      "mainBg": "#2d2c2c",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
