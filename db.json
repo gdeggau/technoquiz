@@ -1,32 +1,99 @@
 {
-  "bg": "https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/Rodhad%20at%20Time%20Warp%202018.png?itok=Si-ofL9v",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "/background.jpg",
+  "title": "Techno Quiz",
+  "description": "Teste os seus conhecimentos sobre tudo que está relacionado a vertente Techno da música eletrônica",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://im.ra.co/images/events/flyer/2018/6/es-0616-1057941-1073826-front.jpg",
+      "title": "Quem é o fundador da label Drumcode?",
+      "description": "Começando de leves",
       "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "alternatives": ["Ben Klock", "Solomun", "Adam Beyer", "Carl Cox"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://resistancemusic.com/wp-content/uploads/2017/07/wehbba-interview.jpg",
+      "title": "Qual é a nacionalidade do artista Wehbba?",
+      "description": "Namorado de uma grande DJ...",
       "answer": 0,
+      "alternatives": ["Brasileira", "Alemã", "Italiana", "Israelense"]
+    },
+    {
+      "image": "https://1.bp.blogspot.com/-HILJXlYZcjU/XwUBpjur0HI/AAAAAAAALoY/Jab-9oKARdkdJBeDJPMSflZvcshKgNOEQCLcBGAsYHQ/s1600/Amelie%2BLens%2Bpress%2Bpic%2B1%2Bby%2BZeb%2BDaemen%2BWEB.jpg",
+      "title": "Quem é a artista na foto?",
+      "description": "Tá fácil essa né?",
+      "answer": 2,
+      "alternatives": ["Peggy Gou", "Charlotte de Witte", "Amelie Lens", "ANNA"]
+    },
+    {
+      "image": "https://faroutmagazine.co.uk/static/uploads/2020/08/Berghain-to-exhibit-art-by-Wolfgang-Tillmans-Olafur-Eliasson-and-more-768x567.jpg",
+      "title": "Qual é o nome do club da foto?",
+      "description": "A lenda",
+      "answer": 1,
+      "alternatives": ["Tresor", "Berghain", "Bassiani", "Watergate"]
+    },
+    {
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/37c68ef8-f936-4b14-8049-3d66e2d8c498_1511913600.jpeg",
+      "title": "Qual é a nacionalidade da artista Nina Kraviz?",
+      "description": "Easy easy",
+      "answer": 3,
+      "alternatives": ["Alemã", "Italiana", "Holandesa", "Russa"]
+    },
+    {
+      "image": "https://fortfestival.eu/wp-content/uploads/2019/05/FJAAK.png",
+      "title": "Qual é o nome do duo da foto?",
+      "description": "Uns alemão meio doido",
+      "answer": 2,
+      "alternatives": ["Pan-Pot", "Adriatique", "FJAAK", "Tale of Us"]
+    },
+    {
+      "image": "https://playbpm.com.br/wp-content/uploads/2017/12/detroit-techno.jpg",
+      "title": "Qual dos artistas abaixo não tem origem do Techno de Detroit?",
+      "description": "Nome bom é o que não falta ai",
+      "answer": 1,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Carl Craig",
+        "Marcel Dettmann",
+        "Jeff Mills",
+        "Richie Hawtin"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/09/11/96/0911969b9fc85c573928993289dafdc3.jpg",
+      "title": "Qual é a label da foto?",
+      "description": "Tranquila essa",
+      "answer": 3,
+      "alternatives": ["Klockworks", "Drumcode", "Suara", "Afterlife"]
+    },
+    {
+      "image": "https://beatforbeat.com.br/site/wp-content/uploads/2019/11/Warung.jpg",
+      "title": "Qual dos artistas abaixo é residente do Warung Beach Club?",
+      "description": "Atualmente em 2021...",
+      "answer": 0,
+      "alternatives": ["Albuquerque", "Volkoder", "Victor Ruiz", "L_CIO"]
+    },
+    {
+      "image": "https://cdn.wegow.com/media/artists/fatima-yamaha/fatima-yamaha-1513942376.17.430x241.jpg",
+      "title": "Quem é o artista na foto?",
+      "description": "Vamos ver se você sabe mesmo",
+      "answer": 2,
+      "alternatives": [
+        "Patrice Bäumel",
+        "Derrick May",
+        "Fatima Yamaha",
+        "Carl Craig"
       ]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://nextjsquiz.rafaelfachinelli.vercel.app/",
+    "https://mr-robot-quiz-alura.bryanauta.vercel.app/",
+    "https://bitter-brewing-quiz.afuscella.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#353A8C",
       "secondary": "#4843D9",
-      "mainBg": "#2d2c2c",
+      "mainBg": "#1e1e1e",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"

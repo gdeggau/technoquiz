@@ -8,6 +8,11 @@ const QuizBackground = styled.div`
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});
 
+  /* -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+
   @media screen and (max-width: 500px) {
     background-image: none;
     &:after {
