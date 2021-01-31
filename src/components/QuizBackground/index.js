@@ -1,18 +1,12 @@
-// src/components/QuizBackground/index.js
 import styled from 'styled-components';
 
 const QuizBackground = styled.div`
   width: 100%;
-  flex: 1;
   background-size: cover;
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});
-
-  /* -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1); */
-
+  background-color: ${({ theme }) => theme.colors.mainBg};
+  flex: 1;
   @media screen and (max-width: 500px) {
     background-image: none;
     &:after {
